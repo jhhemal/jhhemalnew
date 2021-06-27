@@ -367,6 +367,44 @@ img{
 
 /*==================== ABOUT ====================*/
 
+.about-img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about-description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about-info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about-info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.about-info-name,
+.about-info-title{
+    display: block;
+    text-align: center;
+}
+
+.about-button{
+    display: flex;
+    justify-content: center;
+}
 
 /*==================== SKILLS ====================*/
 
